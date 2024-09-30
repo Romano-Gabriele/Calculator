@@ -35,6 +35,7 @@ body {
 
 .func-buttons {
     display: grid;
+    border-radius: 1vw;
     grid-template-columns: repeat(6, 15%);
     grid-template-rows: repeat(2, 30%);
     row-gap: 7%;
@@ -44,6 +45,7 @@ body {
 
 .buttons {
     display: grid;
+    border-radius: 2vw;
     grid-template-columns: repeat(5, 17.5%);
     grid-template-rows: repeat(4, 12.5%);
     justify-content: space-around;
@@ -57,8 +59,26 @@ body {
 
 /*
 .button {
+    border-radius: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+<<<<<<< HEAD
 */
+=======
+
+.button > sup {
+    align-self: normal;
+    border: 0;
+}
+
+.func-button {
+    border-radius: 0.5vw;
+}
+
+.func-button > sup {
+    align-self: normal;
+    border: 0;
+}
+>>>>>>> e3ed40e066fa7262c05bd5f324f9d113bee0e348
