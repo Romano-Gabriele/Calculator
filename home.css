@@ -50,24 +50,15 @@ body {
     align-content: space-evenly;
 }
 
+.func-buttons > button > sup {
+    align-self: normal;
+    border: 0;
+}
+
+/*
 .button {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.button > sup {
-    align-self: normal;
-    border: 0;
-}
-
-.button-sx {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button-sx > sup {
-    align-self: flex-start;
-    border: 0;
-}
+*/
