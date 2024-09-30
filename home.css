@@ -60,3 +60,14 @@ body {
     align-self: normal;
     border: 0;
 }
+
+.button-sx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-sx > sup {
+    align-self: flex-start;
+    border: 0;
+}
