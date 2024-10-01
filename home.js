@@ -19,3 +19,55 @@ function ac() {
 function del() {
     display.value = display.value.slice(0, -1);
 }
+
+function x10() {
+    display.value += "*10**";
+}
+
+function sr() {
+    display.value += "Math.sqrt(";
+}
+
+function cr() {
+    display.value += "Math.cbrt(";
+}
+
+function power2() {
+    display.value += "**2";
+}
+
+function powerx() {
+    display.value += "**";
+}
+
+function lp() {
+    display.value += "(";
+}
+
+function rp() {
+    display.value += ")";
+}
+
+function sin() {
+    display.value += "Math.sin(";
+}
+
+function cos() {
+    display.value += "Math.cos(";
+}
+
+function tan() {
+    display.value += "Math.tan(";
+}
+
+function asin() {
+    display.value += "Math.asin(";
+}
+
+function acos() {
+    display.value += "Math.acos(";
+}
+
+function atan() {
+    display.value += "Math.atan(";
+}
